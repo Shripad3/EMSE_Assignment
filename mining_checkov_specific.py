@@ -13,7 +13,6 @@ CHECKOV_TIMEOUT = 300
 
 
 def run_checkov(repo_path):
-    """Run Checkov and return failed checks"""
     try:
         cmd = [
             "checkov",
