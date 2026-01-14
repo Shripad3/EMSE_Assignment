@@ -1,6 +1,6 @@
 # hcl-dataset-tools
 
-This toolkit is designed for analyzing and processing the `terrads` database of Terraform repositories.
+This toolkit is designed for analyzing and processing the `TerraDS` database of Terraform repositories as done by https://zenodo.org/records/14217386.
 
 ## Folder Structure
 
@@ -23,7 +23,7 @@ This toolkit is designed for analyzing and processing the `terrads` database of 
   * A script to vacuum the database, drop unnecessary views or tables, and optimize the overall file size.
 
 * **`Screenshots`**
-  * A directory containing raw screenshots and basic analysis of the `terrads` data.
+  * A directory containing raw screenshots and basic analysis of the `TerraDS` data.
 
 ---
 
@@ -35,4 +35,5 @@ This toolkit is designed for analyzing and processing the `terrads` database of 
   Redundant file `mining.py` to perform the Checkov analysis.
   3. **Cleanup:**
   Run `finalize_db.py` to clean, compress, and optimize the database after processing is complete.
+
 
