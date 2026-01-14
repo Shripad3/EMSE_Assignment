@@ -1,3 +1,7 @@
+# Sections
+- hcl terraform dataset replication and processing
+- Analysis
+
 # hcl-dataset-tools
 
 This toolkit is designed for analyzing and processing the `TerraDS` database of Terraform repositories as done by https://zenodo.org/records/14217386.
@@ -35,5 +39,6 @@ This toolkit is designed for analyzing and processing the `TerraDS` database of 
   Redundant file `mining.py` to perform the Checkov analysis.
   3. **Cleanup:**
   Run `finalize_db.py` to clean, compress, and optimize the database after processing is complete.
+
 
 
